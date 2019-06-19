@@ -1,0 +1,224 @@
+.fadein {
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.fadeout {
+    animation: fadeOut 3s;
+}
+
+.topline {
+            margin-top:0px;
+            
+            width:100%;
+            border:1.5px solid #3A7CA5
+                /*016974*/;
+        }
+        
+.centeralign {
+            justify-content: center;
+        }
+        
+.maintitle {
+            text-align:center;
+            text-transform: uppercase;
+        }
+
+#maintitle {
+    color:inherit;
+}
+        
+.grid-padding-x {
+            padding-top:15px;
+            padding-left:325px;
+            padding-right:325px;
+            padding-bottom:15px;
+        }
+
+.emailpadding {
+            padding-top:5px;
+            padding-left:325px;
+            padding-right:325px;
+            padding-bottom:30px
+        }
+
+@media only screen and (max-width:1200px) {
+    .grid-padding-x {
+        padding-top:15px;
+        padding-left:225px;
+        padding-right:225px;
+        padding-bottom:15px;
+    }
+    .emailpadding {
+        padding-left:225px;
+        padding-right:225px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .grid-padding-x {
+        padding-left:150px;
+        padding-right:150px;
+    }
+    .emailpadding {
+        padding-left:150px;
+        padding-right:150px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .grid-padding-x {
+        padding-left:75px;
+        padding-right:75px;
+    }
+    .emailpadding {
+        padding-left:75px;
+        padding-right:75px;
+    }
+}
+        
+.adj {
+            padding-top:0px;
+            margin-top:-10px;
+            
+        }
+        
+.input-group-field {
+            background-color:#eee;
+            color:black;
+        }
+        
+        
+.subbanner {
+            background-color: #3A7CA5; /*49A0C6*/
+            background-image:url(images/overlay.png);
+            text-align: center;
+            padding:30px;
+            color:white;
+        }
+        
+.subbanner h4 {
+            padding-top:30px;
+        }
+        
+.breadcrumbs a {
+            color:#3A7CA5;
+        }
+        
+a:hover{
+            text-decoration:none ;
+        }
+        
+small a {
+            color:inherit;
+        }
+        
+small a:hover {
+            color:inherit;
+        }
+        
+.footer {
+            background-color:#eee;
+            padding-top:15px;
+        }
+
+.selfimg {
+            margin-top:6px;
+    margin-left:8px;
+    border:none;
+        }
+        
+.message {
+            resize:none;
+            height:250px;
+        }
+
+.comment {
+    resize:none;
+    height:150px;
+}
+
+.comment:focus {
+}
+        
+.name {
+            padding-right:10px;
+        }
+        
+.email {
+            padding-left:10px;
+        }
+
+@media only screen and (max-width:1023px) {
+    .name {
+        padding-right:0px;
+    }
+    .email {
+        padding-left:0px;
+    }
+}
+
+.homephoto {
+            border:none;
+        }
+        
+.callout {
+            background-image:url(images/overlay.png);
+        }
+        
+.epad {
+            margin-bottom: 15px;
+        }
+
+.archives {
+            float:right;
+            margin-right:10px;
+        }
+
+ .japan {
+        background: url(images/japantravelblog.jpg) center;
+        background-size: cover;
+        padding-bottom:250px;
+        padding-top:75px;
+        color:rgba(255,255,255,0.75)
+    }
+    
+    .thailand {
+        background: url(images/thailandtravelblog.jpg) center;
+        background-size: cover;
+        padding-bottom:250px;
+        padding-top:75px;
+        color:rgba(255,255,255,0.75)
+    }
+    
+    .hurghada {
+        background: url(images/hurghadatravelblog.jpeg) center;
+        background-size: cover;
+        padding-bottom:250px;
+        padding-top:75px;
+        color:rgba(255,255,255,0.75)
+    }
+    
+    .peakdistrict {
+        background: url(images/peakdistricttravelblog.jpg) center;
+        background-size: cover;
+        padding-bottom:250px;
+        padding-top:75px;
+        color:rgba(255,255,255,0.75)
+    }
+
+a .fa-biking{
+    color:green;
+}
+
+a .fa-running {
+    color:red;
+}
